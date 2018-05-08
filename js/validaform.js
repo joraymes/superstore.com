@@ -15,7 +15,7 @@ Uso:		Añadir en los elementos del formulario el atributo "class"
 		[opcion]		: Descripcion
 		"txt-obl"		: Para input text obligatorios.
 		"isOnlyChars" 	: Para inputs text con formato solo caracteres.
-		"IsNumber"		: Para inputs text con formato numero entero.
+		"isNumber"		: Para inputs text con formato numero entero.
 		"email"			: Para inputs que requieren una dir. Correo
 		"chk-obl"		: Para inputs checkbox obligatorios.
 		"rad-obl"		: Para inputs radio obligatorios.

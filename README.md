@@ -6,8 +6,15 @@ Objectius: A partir d’un full de càlcul facilitat per l’empresa SuperStore 
 
 ### Requeriments
 
-El fitxer original l’obtenim de ruta:
+* [Superstore.xls](https://github.com/joraymes/superstore.com/tree/master/bbdd/Superstore.xls) -- El fitxer original 
 
+* Volem que la base de dades tingui per nom “superstore” i que s’assigni permisos complerts a un nou usuari “u_superstore” amb accés des de qualsevol indret de la xarxa i amb la contrasenya “12345”.
+
+### Solució
+
+ * [MF0492 Practica](https://github.com/joraymes/superstore.com/tree/master/MF0492_Practica.pdf) -- Desenvolupament de la pràctica
+ 
 ```
-“bbdd/Superstore.xls”.
+	Autor: Joaquim Aymerich
 ```
+ 
