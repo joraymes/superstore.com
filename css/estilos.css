@@ -1,0 +1,20 @@
+  .table-box { margin:5px 5px;border:1px solid #ccc;border-radius:4px;}
+  .table-box table {  border-collapse:collapse; width:100%; }
+  .table-box table th { padding:3px;text-align:left; }
+  .table-box table td { padding:3px; }
+  
+  .pagination-box { padding:10px 10px;margin:5px 5px;border:1px solid #ccc;border-radius:4px;}
+  .pagination-box label { padding:5px 10px; margin:3px; border:1px solid #ccc; border-radius:4px;}
+  .pagination-box label a { text-decoration:none;}
+  
+  .form-box label { float:left; width:60px; text-align: right; padding-right:10px;}
+  .form-box fieldset         { margin-bottom:10px; border-radius:5px;}
+  .form-box div              { margin: 5px;clear:both}
+  .form-box .err-msg { color:#ff3322; display:inline;padding:0px 10px;}
+  
+  #panel  table td.big 	{ width:200px; }
+  #panel  table td.normal  { width:80px; }
+  #panel  table td.controls  { width:80px; }
+  #panel  table td.controls input { width:25px; display:inline; }
+  #panel  table input , #panel  table select { width:100%}
+    

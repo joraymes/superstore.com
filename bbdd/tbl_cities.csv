@@ -1,0 +1,532 @@
+id;city;postalCode;id_states;id_regions
+1;Henderson;42420;1;1
+2;Los Angeles;90036;2;2
+3;Fort Lauderdale;33311;3;1
+4;Concord;28027;4;1
+5;Seattle;98103;5;2
+6;Fort Worth;76106;6;3
+7;Madison;53711;7;3
+8;West Jordan;84084;8;2
+9;San Francisco;94109;2;2
+10;Fremont;68025;9;3
+11;Philadelphia;19140;10;4
+12;Orem;84057;8;2
+13;Houston;77095;6;3
+14;Richardson;75080;6;3
+15;Naperville;60540;11;3
+16;Melbourne;32935;3;1
+17;Eagan;55122;12;3
+18;Westland;48185;13;3
+19;Dover;19901;14;4
+20;New Albany;47150;15;3
+21;New York City;10024;16;4
+22;Troy;12180;16;4
+23;Chicago;60610;11;3
+24;Gilbert;85234;17;2
+25;Springfield;22153;18;1
+26;Jackson;49201;13;3
+27;Memphis;38109;19;1
+28;Decatur;35601;20;1
+29;Durham;27707;4;1
+30;Columbia;29203;21;1
+31;Rochester;55901;12;3
+32;Minneapolis;55407;12;3
+33;Portland;97206;22;2
+34;Saint Paul;55106;12;3
+35;Aurora;80013;23;2
+36;Charlotte;28205;4;1
+37;Orland Park;60462;11;3
+38;Urbandale;50322;24;3
+39;Columbus;43229;25;4
+40;Bristol;37620;19;1
+41;Wilmington;19805;14;4
+42;Bloomington;61701;11;3
+43;Phoenix;85023;17;2
+44;Roseville;95661;2;2
+45;Independence;64055;26;3
+46;Pasadena;91104;2;2
+47;Newark;43055;25;4
+48;Franklin;53132;7;3
+49;Scottsdale;85254;17;2
+50;San Jose;95123;2;2
+51;Edmond;73034;27;3
+52;Carlsbad;88220;28;2
+53;San Antonio;78207;6;3
+54;Monroe;71203;29;1
+55;Fairfield;6824;30;4
+56;Grand Prairie;75051;6;3
+57;Redlands;92374;2;2
+58;Hamilton;45011;25;4
+59;Westfield;7090;31;4
+60;Akron;44312;25;4
+61;Denver;80219;23;2
+62;Dallas;75220;6;3
+63;Whittier;90604;2;2
+64;Saginaw;48601;13;3
+65;Medina;44256;25;4
+66;Dublin;43017;25;4
+67;Detroit;48227;13;3
+68;Tampa;33614;3;1
+69;Santa Clara;95051;2;2
+70;Lakeville;55044;12;3
+71;San Diego;92037;2;2
+72;Brentwood;94513;2;2
+73;Chapel Hill;27514;4;1
+74;Morristown;7960;31;4
+75;Cincinnati;45231;25;4
+76;Inglewood;90301;2;2
+77;Tamarac;33319;3;1
+78;Colorado Springs;80906;23;2
+79;Belleville;7109;31;4
+80;Taylor;48180;13;3
+81;Lakewood;8701;31;4
+82;Arlington;22204;18;1
+83;Arvada;80004;23;2
+84;Hackensack;7601;31;4
+85;Saint Petersburg;33710;3;1
+86;Long Beach;90805;2;2
+87;Hesperia;92345;2;2
+88;Murfreesboro;37130;19;1
+89;Layton;84041;8;2
+90;Austin;78745;6;3
+91;Lowell;1852;32;4
+92;Manchester;6040;30;4
+93;Harlingen;78550;6;3
+94;Tucson;85705;17;2
+95;Quincy;62301;11;3
+96;Pembroke Pines;33024;3;1
+97;Des Moines;98198;5;2
+98;Peoria;61604;11;3
+99;Las Vegas;89115;34;2
+100;Warwick;2886;35;4
+101;Miami;33180;3;1
+102;Huntington Beach;92646;2;2
+103;Richmond;40475;1;1
+104;Louisville;80027;23;2
+105;Lawrence;1841;32;4
+106;Canton;48187;13;3
+107;New Rochelle;10801;16;4
+108;Gastonia;28052;4;1
+109;Jacksonville;32216;3;1
+110;Auburn;13021;16;4
+111;Norman;73071;27;3
+112;Park Ridge;60068;11;3
+113;Amarillo;79109;6;3
+114;Lindenhurst;11757;16;4
+115;Huntsville;77340;6;3
+116;Fayetteville;72701;37;1
+117;Costa Mesa;92627;2;2
+118;Parker;80134;23;2
+119;Atlanta;30318;33;1
+120;Gladstone;64118;26;3
+121;Great Falls;59405;38;2
+122;Lakeland;33801;3;1
+123;Montgomery;36116;20;1
+124;Mesa;85204;17;2
+125;Green Bay;54302;7;3
+126;Anaheim;92804;2;2
+127;Marysville;98270;5;2
+128;Salem;97301;22;2
+129;Laredo;78041;6;3
+130;Grove City;43123;25;4
+131;Dearborn;48126;13;3
+132;Warner Robins;31088;33;1
+133;Vallejo;94591;2;2
+134;Mission Viejo;92691;2;2
+135;Rochester Hills;48307;13;3
+136;Plainfield;7060;31;4
+137;Sierra Vista;85635;17;2
+138;Vancouver;98661;5;2
+139;Cleveland;44105;25;4
+140;Tyler;75701;6;3
+141;Burlington;27217;4;1
+142;Waynesboro;22980;18;1
+143;Chester;19013;10;4
+144;Cary;27511;4;1
+145;Palm Coast;32137;3;1
+146;Mount Vernon;10550;16;4
+147;Hialeah;33012;3;1
+148;Oceanside;11572;16;4
+149;Evanston;60201;11;3
+150;Trenton;48183;13;3
+151;Cottage Grove;55016;12;3
+152;Bossier City;71111;29;1
+153;Lancaster;93534;2;2
+154;Asheville;28806;4;1
+155;Lake Elsinore;92530;2;2
+156;Omaha;68104;9;3
+157;Edmonds;98026;5;2
+158;Santa Ana;92704;2;2
+159;Milwaukee;53209;7;3
+160;Florence;41042;1;1
+161;Lorain;44052;25;4
+162;Linden;7036;31;4
+163;Salinas;93905;2;2
+164;New Brunswick;8901;31;4
+165;Garland;75043;6;3
+166;Norwich;6360;30;4
+167;Alexandria;22304;18;1
+168;Toledo;43615;25;4
+169;Farmington;87401;28;2
+170;Riverside;92503;2;2
+171;Torrance;90503;2;2
+172;Round Rock;78664;6;3
+173;Boca Raton;33433;3;1
+174;Virginia Beach;23464;18;1
+175;Murrieta;92563;2;2
+176;Olympia;98502;5;2
+177;Washington;20016;41;4
+178;Jefferson City;65109;26;3
+179;Saint Peters;63376;26;3
+180;Rockford;61107;11;3
+181;Brownsville;78521;6;3
+182;Yonkers;10701;16;4
+183;Oakland;94601;2;2
+184;Clinton;20735;40;4
+185;Encinitas;92024;2;2
+186;Roswell;30076;33;1
+187;Jonesboro;72401;37;1
+188;Antioch;94509;2;2
+189;Homestead;33030;3;1
+190;La Porte;46350;15;3
+191;Lansing;48911;13;3
+192;Cuyahoga Falls;44221;25;4
+193;Reno;89502;34;2
+194;Harrisonburg;22801;18;1
+195;Escondido;92025;2;2
+196;Royal Oak;48073;13;3
+197;Rockville;20852;40;4
+198;Coral Springs;33065;3;1
+199;Buffalo;14215;16;4
+200;Boynton Beach;33437;3;1
+201;Gulfport;39503;36;1
+202;Fresno;93727;2;2
+203;Greenville;27834;4;1
+204;Macon;31204;33;1
+205;Cedar Rapids;52402;24;3
+206;Providence;2908;35;4
+207;Pueblo;81001;23;2
+208;Deltona;32725;3;1
+209;Murray;42071;1;1
+210;Middletown;6457;30;4
+211;Freeport;11520;16;4
+212;Pico Rivera;90660;2;2
+213;Provo;84604;8;2
+214;Pleasant Grove;84062;8;2
+215;Smyrna;30080;33;1
+216;Parma;44134;25;4
+217;Mobile;36608;20;1
+218;New Bedford;2740;32;4
+219;Irving;75061;6;3
+220;Vineland;8360;31;4
+221;Glendale;85301;17;2
+222;Niagara Falls;14304;16;4
+223;Thomasville;27360;4;1
+224;Westminster;92683;2;2
+225;Coppell;75019;6;3
+226;Pomona;91767;2;2
+227;North Las Vegas;89031;34;2
+228;Allentown;18103;10;4
+229;Tempe;85281;17;2
+230;Laguna Niguel;92677;2;2
+231;Bridgeton;8302;31;4
+232;Everett;2149;32;4
+233;Watertown;13601;16;4
+234;Appleton;54915;7;3
+235;Bellevue;98006;5;2
+236;Allen;75002;6;3
+237;El Paso;79907;6;3
+238;Grapevine;76051;6;3
+239;Carrollton;75007;6;3
+240;Kent;98031;5;2
+241;Lafayette;70506;29;1
+242;Tigard;97224;22;2
+243;Skokie;60076;11;3
+244;Plano;75023;6;3
+245;Suffolk;23434;18;1
+246;Indianapolis;46203;15;3
+247;Bayonne;7002;31;4
+248;Greensboro;27405;4;1
+249;Baltimore;21215;40;4
+250;Kenosha;53142;7;3
+251;Olathe;66062;42;3
+252;Tulsa;74133;27;3
+253;Redmond;97756;22;2
+254;Raleigh;27604;4;1
+255;Muskogee;74403;27;3
+256;Meriden;6450;30;4
+257;Bowling Green;42104;1;1
+258;South Bend;46614;15;3
+259;Spokane;99207;5;2
+260;Keller;76248;6;3
+261;Port Orange;32127;3;1
+262;Medford;97504;22;2
+263;Charlottesville;22901;18;1
+264;Missoula;59801;38;2
+265;Apopka;32712;3;1
+266;Reading;19601;10;4
+267;Broomfield;80020;23;2
+268;Paterson;7501;31;4
+269;Oklahoma City;73120;27;3
+270;Chesapeake;23320;18;1
+271;Lubbock;79424;6;3
+272;Johnson City;37604;19;1
+273;San Bernardino;92404;2;2
+274;Leominster;1453;32;4
+275;Bozeman;59715;38;2
+276;Perth Amboy;8861;31;4
+277;Ontario;91761;2;2
+278;Rancho Cucamonga;91730;2;2
+279;Moorhead;56560;12;3
+280;Mesquite;75150;6;3
+281;Stockton;95207;2;2
+282;Ormond Beach;32174;3;1
+283;Sunnyvale;94086;2;2
+284;York;17403;10;4
+285;College Station;77840;6;3
+286;Saint Louis;63116;26;3
+287;Manteca;95336;2;2
+288;San Angelo;76903;6;3
+289;Salt Lake City;84106;8;2
+290;Knoxville;37918;19;1
+291;Little Rock;72209;37;1
+292;Lincoln Park;48146;13;3
+293;Marion;43302;25;4
+294;Littleton;80122;23;2
+295;Bangor;4401;44;4
+296;Southaven;38671;36;1
+297;New Castle;47362;15;3
+298;Midland;48640;13;3
+299;Sioux Falls;57103;45;3
+300;Fort Collins;80525;23;2
+301;Clarksville;37042;19;1
+302;Sacramento;95823;2;2
+303;Thousand Oaks;91360;2;2
+304;Malden;2148;32;4
+305;Holyoke;1040;32;4
+306;Albuquerque;87105;28;2
+307;Sparks;89431;34;2
+308;Coachella;92236;2;2
+309;Elmhurst;60126;11;3
+310;Passaic;7055;31;4
+311;North Charleston;29406;21;1
+312;Newport News;23602;18;1
+313;Jamestown;14701;16;4
+314;Mishawaka;46544;15;3
+315;La Quinta;92253;2;2
+316;Tallahassee;32303;3;1
+317;Nashville;37211;19;1
+318;Bellingham;98226;5;2
+319;Woodstock;60098;11;3
+320;Haltom City;76117;6;3
+321;Wheeling;60090;11;3
+322;Summerville;29483;21;1
+323;Hot Springs;71901;37;1
+324;Englewood;80112;23;2
+325;Las Cruces;88001;28;2
+326;Hoover;35244;20;1
+327;Frisco;75034;6;3
+328;Vacaville;95687;2;2
+329;Waukesha;53186;7;3
+330;Bakersfield;93309;2;2
+331;Pompano Beach;33068;3;1
+332;Corpus Christi;78415;6;3
+333;Redondo Beach;90278;2;2
+334;Orlando;32839;3;1
+335;Orange;7050;31;4
+336;Lake Charles;70601;29;1
+337;Highland Park;60035;11;3
+338;Hempstead;11550;16;4
+339;Noblesville;46060;15;3
+340;Apple Valley;55124;12;3
+341;Mount Pleasant;29464;21;1
+342;Sterling Heights;48310;13;3
+343;Eau Claire;54703;7;3
+344;Pharr;78577;6;3
+345;Billings;59102;38;2
+346;Gresham;97030;22;2
+347;Chattanooga;37421;19;1
+348;Meridian;83642;46;2
+349;Bolingbrook;60440;11;3
+350;Maple Grove;55369;12;3
+351;Woodland;95695;2;2
+352;Missouri City;77489;6;3
+353;Pearland;77581;6;3
+354;San Mateo;94403;2;2
+355;Grand Rapids;49505;13;3
+356;Visalia;93277;2;2
+357;Overland Park;66212;42;3
+358;Temecula;92592;2;2
+359;Yucaipa;92399;2;2
+360;Revere;2151;32;4
+361;Conroe;77301;6;3
+362;Tinley Park;60477;11;3
+363;Dubuque;52001;24;3
+364;Dearborn Heights;48127;13;3
+365;Santa Fe;87505;28;2
+366;Hickory;28601;4;1
+367;Carol Stream;60188;11;3
+368;Saint Cloud;56301;12;3
+369;North Miami;33161;3;1
+370;Plantation;33317;3;1
+371;Port Saint Lucie;34952;3;1
+372;Rock Hill;29730;21;1
+373;Odessa;79762;6;3
+374;West Allis;53214;7;3
+375;Chula Vista;91911;2;2
+376;Manhattan;66502;42;3
+377;Altoona;16602;10;4
+378;Thornton;80229;23;2
+379;Champaign;61821;11;3
+380;Texarkana;71854;37;1
+381;Edinburg;78539;6;3
+382;Baytown;77520;6;3
+383;Greenwood;46142;15;3
+384;Woonsocket;2895;35;4
+385;Superior;54880;7;3
+386;Bedford;76021;6;3
+387;Covington;98042;5;2
+388;Broken Arrow;74012;27;3
+389;Miramar;33023;3;1
+390;Hollywood;33021;3;1
+391;Deer Park;77536;6;3
+392;Wichita;67212;42;3
+393;Mcallen;78501;6;3
+394;Iowa City;52240;24;3
+395;Boise;83704;46;2
+396;Cranston;2920;35;4
+397;Port Arthur;77642;6;3
+398;Citrus Heights;95610;2;2
+399;The Colony;75056;6;3
+400;Daytona Beach;32114;3;1
+401;Bullhead City;86442;17;2
+402;Portage;46368;15;3
+403;Fargo;58103;47;3
+404;Elkhart;46514;15;3
+405;San Gabriel;91776;2;2
+406;Margate;33063;3;1
+407;Sandy Springs;30328;33;1
+408;Mentor;44060;25;4
+409;Lawton;73505;27;3
+410;Hampton;23666;18;1
+411;Rome;13440;16;4
+412;La Crosse;54601;7;3
+413;Lewiston;83501;46;2
+414;Hattiesburg;39401;36;1
+415;Danville;94526;2;2
+416;Logan;84321;8;2
+417;Waterbury;6708;30;4
+418;Athens;30605;33;1
+419;Avondale;85323;17;2
+420;Marietta;30062;33;1
+421;Yuma;85364;17;2
+422;Wausau;54401;7;3
+423;Pasco;99301;5;2
+424;Oak Park;60302;11;3
+425;Pensacola;32503;3;1
+426;League City;77573;6;3
+427;Gaithersburg;20877;40;4
+428;Lehi;84043;8;2
+429;Tuscaloosa;35401;20;1
+430;Moreno Valley;92553;2;2
+431;Georgetown;40324;1;1
+432;Loveland;80538;23;2
+433;Chandler;85224;17;2
+434;Helena;59601;38;2
+435;Kirkwood;63122;26;3
+436;Waco;76706;6;3
+437;Frankfort;60423;11;3
+438;Bethlehem;18018;10;4
+439;Grand Island;68801;9;3
+440;Woodbury;55125;12;3
+441;Rogers;72756;37;1
+442;Clovis;88101;28;2
+443;Jupiter;33458;3;1
+444;Santa Barbara;93101;2;2
+445;Cedar Hill;75104;6;3
+446;Norfolk;68701;9;3
+447;Draper;84020;8;2
+448;Ann Arbor;48104;13;3
+449;La Mesa;91941;2;2
+450;Pocatello;83201;46;2
+451;Holland;49423;13;3
+452;Milford;6460;30;4
+453;Buffalo Grove;60089;11;3
+454;Lake Forest;92630;2;2
+455;Redding;96003;2;2
+456;Chico;95928;2;2
+457;Utica;13501;16;4
+458;Conway;72032;37;1
+459;Cheyenne;82001;48;2
+460;Owensboro;42301;1;1
+461;Caldwell;83605;46;2
+462;Kenner;70065;29;1
+463;Nashua;3060;39;4
+464;Bartlett;38134;19;1
+465;Redwood City;94061;2;2
+466;Lebanon;37087;19;1
+467;Santa Maria;93454;2;2
+468;Des Plaines;60016;11;3
+469;Longview;98632;5;2
+470;Hendersonville;37075;19;1
+471;Waterloo;50701;24;3
+472;Cambridge;2138;32;4
+473;Palatine;60067;11;3
+474;Beverly;1915;32;4
+475;Eugene;97405;22;2
+476;Oxnard;93030;2;2
+477;Renton;98059;5;2
+478;Glenview;60025;11;3
+479;Delray Beach;33445;3;1
+480;Commerce City;80022;23;2
+481;Texas City;77590;6;3
+482;Wilson;27893;4;1
+483;Rio Rancho;87124;28;2
+484;Goldsboro;27534;4;1
+485;Montebello;90640;2;2
+486;El Cajon;92020;2;2
+487;Beaumont;77705;6;3
+488;West Palm Beach;33407;3;1
+489;Abilene;79605;6;3
+490;Normal;61761;11;3
+491;Saint Charles;63301;26;3
+492;Camarillo;93010;2;2
+493;Hillsboro;97123;22;2
+494;Burbank;91505;2;2
+495;Modesto;95351;2;2
+496;Garden City;67846;42;3
+497;Atlantic City;8401;31;4
+498;Longmont;80501;23;2
+499;Davis;95616;2;2
+500;Morgan Hill;95037;2;2
+501;Clifton;7011;31;4
+502;Sheboygan;53081;7;3
+503;East Point;30344;33;1
+504;Rapid City;57701;45;3
+505;Andover;1810;32;4
+506;Kissimmee;34741;3;1
+507;Shelton;6484;30;4
+508;Danbury;6810;30;4
+509;Sanford;32771;3;1
+510;San Marcos;78666;6;3
+511;Greeley;80634;23;2
+512;Mansfield;76063;6;3
+513;Elyria;44035;25;4
+514;Twin Falls;83301;46;2
+515;Coral Gables;33134;3;1
+516;Romeoville;60441;11;3
+517;Marlborough;1752;32;4
+518;Laurel;20707;40;4
+519;Bryan;77803;6;3
+520;Pine Bluff;71603;37;1
+521;Aberdeen;57401;45;3
+522;Hagerstown;21740;40;4
+523;East Orange;7017;31;4
+524;Arlington Heights;60004;11;3
+525;Oswego;60543;11;3
+526;Coon Rapids;55433;12;3
+527;San Clemente;92672;2;2
+528;San Luis Obispo;93405;2;2
+529;Springdale;72762;37;1
+530;Lodi;95240;2;2
+531;Mason;45040;25;4

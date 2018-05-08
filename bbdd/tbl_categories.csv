@@ -1,0 +1,21 @@
+id;category;id_categories
+1;Furniture;\N
+2;Office Supplies;\N
+3;Technology;\N
+4;Bookcases;1
+5;Chairs;1
+6;Labels;2
+7;Tables;1
+8;Storage;2
+9;Furnishings;1
+10;Art;2
+11;Phones;3
+12;Binders;2
+13;Appliances;2
+14;Paper;2
+15;Accessories;3
+16;Envelopes;2
+17;Fasteners;2
+18;Supplies;2
+19;Machines;3
+20;Copiers;3
