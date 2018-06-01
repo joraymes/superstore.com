@@ -18,3 +18,9 @@ Objectius: A partir d’un full de càlcul facilitat per l’empresa SuperStore 
 	Autor: Joaquim Aymerich
 ```
  
+ 
+ 
+ 
+ 
+ 
+ 
