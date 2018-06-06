@@ -40,12 +40,12 @@ class customer {
                 case 'xml': 
                     $xml= new DOMDocument();
                     $xml->encoding ='UTF-8';
-                    $serieTag=$xml->createElement('customer');
+                    $rootTag=$xml->createElement('customer');
                     foreach($arrRow as $key=>$value){
                         $tag= $xml->createElement($key,$value);
-                        $serieTag->appendChild($tag);
+                        $rootTag->appendChild($tag);
                     }
-                    $xml->appendChild($serieTag);
+                    $xml->appendChild($rootTag);
                     return $xml->saveXML();
                     break;
                 default : 
@@ -81,16 +81,16 @@ class customer {
             case 'xml':
                 $xml= new DOMDocument();
                 $xml->encoding ='UTF-8';
-                $seriesTag=$xml->createElement('customers');
+                $rootTag=$xml->createElement('customers');
                 for($k=0; $k<count($arrRows);$k++){
-                    $serieTag=$xml->createElement('customer');
+                    $nodeTag=$xml->createElement('customer');
                     foreach(  $arrRows[$k]   as   $key  =>  $value){
                         $tag= $xml->createElement($key,$value);
-                        $serieTag->appendChild($tag);
+                        $nodeTag->appendChild($tag);
                     }
-                    $seriesTag->appendChild($serieTag);
+                    $rootTag->appendChild($nodeTag);
                 }
-                $xml->appendChild($seriesTag);
+                $xml->appendChild($rootTag);
                 return $xml->saveXML();
                 break;
             default :
@@ -135,6 +135,16 @@ class customer {
                 return json_encode(array("id"=>$id,"msg"=>"Deleted"));
                 break;
             case 'xml': break;
+                $xml= new DOMDocument();
+                $xml->encoding ='UTF-8';
+                $rootTag=$xml->createElement('customer');
+                $tag= $xml->createElement("id",$id);
+                $rootTag->appendChild($tag);
+                $tag= $xml->createElement("msg","Deleted");
+                $rootTag->appendChild($tag);
+                $xml->appendChild($rootTag);
+                return $xml->saveXML();
+                break;
             default :
                 return $id;
         }
