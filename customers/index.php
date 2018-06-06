@@ -64,6 +64,10 @@
     	</table>
     	
 	</div>
-	
+	<?php 
+	$customer2= new customer('xml');
+	$xmlCustomer= $customer2->get(1);
+	var_dump($xmlCustomer);
+	?>
 </body>
 </html>

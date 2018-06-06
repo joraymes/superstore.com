@@ -38,6 +38,15 @@ class customer {
                     return json_encode($arrRow);
                     break;
                 case 'xml': 
+                    $xml= new DOMDocument();
+                    $xml->encoding ='UTF-8';
+                    $serieTag=$xml->createElement('customer');
+                    foreach($arrRow as $key=>$value){
+                        $tag= $xml->createElement($key,$value);
+                        $serieTag->appendChild($tag);
+                    }
+                    $xml->appendChild($serieTag);
+                    return $xml->saveXML();
                     break;
                 default : 
                     return $arrRow;
@@ -47,7 +56,7 @@ class customer {
     /*
      * 
      */
-    public function getAll ($start='',$page=''){
+    public function getAll($start='',$page=''){
         $sql="SELECT tbl_customers.*, tbl_cities.city, tbl_regions.region, tbl_states.state, tbl_countries.country
             FROM tbl_customers
             LEFT JOIN tbl_cities    ON tbl_cities.id        = tbl_customers.id_cities
@@ -69,7 +78,20 @@ class customer {
             case 'json' :
                 return json_encode($arrRows);
                 break;
-            case 'xml': 
+            case 'xml':
+                $xml= new DOMDocument();
+                $xml->encoding ='UTF-8';
+                $seriesTag=$xml->createElement('customers');
+                for($k=0; $k<count($arrRows);$k++){
+                    $serieTag=$xml->createElement('customer');
+                    foreach(  $arrRows[$k]   as   $key  =>  $value){
+                        $tag= $xml->createElement($key,$value);
+                        $serieTag->appendChild($tag);
+                    }
+                    $seriesTag->appendChild($serieTag);
+                }
+                $xml->appendChild($seriesTag);
+                return $xml->saveXML();
                 break;
             default :
                 return $arrRows;
