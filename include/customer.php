@@ -1,5 +1,11 @@
 <?php 
 
+/* -------------------  Class customer -----------------------
+ * 
+ * 
+ */
+
+
 class customer {
     
     private $mysql;
